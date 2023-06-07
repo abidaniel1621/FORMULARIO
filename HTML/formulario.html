@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de alumnos</h1>
+<!--inicia formulario-->
+        <div class="formulario">
+
+            <form action="">
+                <input type="text" class="cajanombre" id="cajaNombre" placeholder="Ingresa tu nombre">
+                <input type="text" class="ApPaterno" id="ApPaterno" placeholder="Apellido paterno">
+                <input type="text" class="ApMaterno" id="ApMaterno" placeholder="Apellido materno">
+                <input type="number" class="edad" id="edad" placeholder="Ingresa tu edad">
+                <input type="text" class="calle" id="calle" placeholder="Ingresa tu call">
+                <input type="text" class="colonia" id="colonia" placeholder="ingresa tu colonia">
+                <input type="text"class="estado" id="estado" placeholder="Ingresa tu estdo donde vives">
+
+
+                        <!--Inicia selec de carrera-->
+                        <select name="" id="Carrera">
+                            <option value="carrera">selcciona tu carrea</option>
+                            <option value="informatica">Informática</option>
+                            <option value="conta">Contabilidad</option>
+                            <option value="Hospitalidad">Hospitalidad turistica</option>
+                            <option value="alimentos">Alimentos y bebidas</option>
+
+                        </select>
+                    <!--termina selec de carrera-->
+                    <!--empieza select de grupos-->
+                        <select name="grupos" id="grupos">
+                            <option value="Grupo">seleciona tu grupo</option>
+                            <option value="grupo1">206</option>
+                            <option value="grupo2">205</option>
+                            <option value="grupo3">305</option>
+                            <option value="grupo4">306</option>
+                            <option value="grupo5">406</option>
+                            <option value="grupo6">405</option>
+                        </select>
+                        
+                        <button onclick="validar()">Confirmar</button>
+
+            </form>
+
+
+        </div>
+
+</body>
+</html>
